@@ -138,7 +138,8 @@ nav a:hover{
 
 #main aside{
 	color:white;
-	padding:0px 5% 10px;
+  padding:0px 5% 10px;
+  margin-bottom: 20px;
 }
 
 #footer-container footer{
@@ -176,7 +177,7 @@ nav a:hover{
 /* ====================
     INTERMEDIATE: Menu
    ==================== */
-	
+
 	nav a{
 		float:left;
 		width:27%;
@@ -184,19 +185,19 @@ nav a:hover{
 		padding:25px 2%;
 		margin-bottom:0;
 	}
-	
+
 	nav li:first-child a{ margin-left:0;  }
 	nav li:last-child  a{ margin-right:0; }
-	
+
 /* ========================
     INTERMEDIATE: IE Fixes
    ======================== */
 
 	nav ul li{
 		display:inline;
-	}	
+	}
 	.oldie nav a{
-		margin:0 0.7%;		
+		margin:0 0.7%;
 	}
 }
 
@@ -216,7 +217,7 @@ nav a:hover{
 /* ============
     WIDE: Menu
    ============ */
-	
+
 	#title{
 		float:left;
 	}
@@ -234,7 +235,7 @@ nav a:hover{
 		float:left;
 		width:57%;
 	}
-		
+
 	#main aside{
 		float:right;
 		width:28%;
@@ -270,7 +271,7 @@ nav a:hover{
 /* =============================================================================
    Print Styles
    ========================================================================== */
- 
+
 @media print {
   * { background: transparent !important; color: black !important; box-shadow:none !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; } /* Black prints faster: h5bp.com/s */
   a, a:visited { text-decoration: underline; }
